@@ -1,0 +1,8 @@
+printf "\n%s\n-------\n\n" "Weeks of work can save hours of planning."
+fortune
+printf "%s\n-------\n\n" ""
+open ~/Dropbox/journal
+python ~/Dropbox/weighted_choice/my_tree_main.py
+python ~/Dropbox/weighted_choice/my_tree_coding_ai.py
+python ~/Dropbox/weighted_choice/my_tree_improvement.py
+open https://calendar.google.com/calendar/r
