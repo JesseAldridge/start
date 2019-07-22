@@ -1,4 +1,4 @@
-printf "\n%s\n-------\n\n" "Weeks of work can save hours of planning."
+printf "\n%s\n-------\n\n" "Hours of planning can save weeks of work."
 fortune
 printf "%s\n-------\n\n" ""
 open ~/Dropbox/journal
