@@ -1,8 +1,11 @@
-printf "\n%s\n-------\n\n" "Hours of planning can save weeks of work."
+printf "\n%s\n-------\n\n" "Weeks of work can save hours of planning."
 fortune
 printf "%s\n-------\n\n" ""
-open ~/Dropbox/journal
-python ~/Dropbox/weighted_choice/my_tree_main.py
-python ~/Dropbox/weighted_choice/my_tree_coding_ai.py
+printf "improvement: "
 python ~/Dropbox/weighted_choice/my_tree_improvement.py
-open https://calendar.google.com/calendar/r
+printf "main: "
+python ~/Dropbox/weighted_choice/my_tree_main.py
+printf "coding ai: "
+python ~/Dropbox/weighted_choice/my_tree_coding_ai.py
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --app="data:text/html,<html><body><script>window.moveTo(100,100);window.resizeTo(800,600);window.location='https://docs.google.com/spreadsheets/d/1KZ7_7m0yKHhRJqouShRPrxgotPOUvPqmWGq3IqC1_jM'</script></body></html>";
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --app="data:text/html,<html><body><script>window.moveTo(1000,100);window.resizeTo(800,600);window.location='https://qs.emfit.com';</script></body></html>";
