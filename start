@@ -2,6 +2,8 @@ exec > >(tee -ia ~/Dropbox/start/script.log)
 printf "\n%s\n-------\n\n" "Weeks of work can save hours of planning."
 fortune
 printf "%s\n-------\n\n" ""
+printf "improvement: "
+python ~/Dropbox/weighted_choice/my_tree_improvement.py
 printf "main: "
 python ~/Dropbox/weighted_choice/my_tree_main.py
 printf "\n"
