@@ -2,11 +2,7 @@ exec > >(tee -ia ~/Dropbox/start/script.log)
 printf "\n%s\n-------\n\n" "Weeks of work can save hours of planning."
 fortune
 printf "%s\n-------\n\n" ""
-printf "improvement: "
-python ~/Dropbox/weighted_choice/my_tree_improvement.py
-printf "main: "
-python ~/Dropbox/weighted_choice/my_tree_main.py
 printf "\n"
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --app="data:text/html,<html><body><script>window.moveTo(1000,100);window.resizeTo(800,600);window.location='https://docs.google.com/spreadsheets/d/1KZ7_7m0yKHhRJqouShRPrxgotPOUvPqmWGq3IqC1_jM';</script></body></html>";
-/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --app="data:text/html,<html><body><script>window.moveTo(100,100);window.resizeTo(800,600);window.location='https://docs.google.com/spreadsheets/d/1agCSqcwTcSQ8DAiubkkXM5tJyRoMzmndEWZN579R03k'</script></body></html>";
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --app="data:text/html,<html><body><script>window.moveTo(1000,100);window.resizeTo(800,600);window.location='https://qs.emfit.com';</script></body></html>";
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --app="data:text/html,<html><body><script>window.moveTo(100,100);window.resizeTo(800,600);window.location='http://54.152.174.243/'</script></body></html>";
